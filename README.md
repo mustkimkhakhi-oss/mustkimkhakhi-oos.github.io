@@ -129,3 +129,14 @@
 
 </body>
 </html>
+<button onclick="playMusic()" class="btn">Play Song 🎶</button>
+
+<audio id="music" loop>
+  <source src="Humsafar.mp4" type="audio/mpeg">
+</audio>
+
+<script>
+function playMusic() {
+  document.getElementById("music").play();
+}
+</script>
