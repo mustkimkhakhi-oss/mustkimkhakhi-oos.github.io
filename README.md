@@ -129,6 +129,7 @@
 
 </body>
 </html>
+<nav>
 <button onclick="playMusic()" class="btn">Play Song 🎶</button>
 
 <audio id="music" loop>
